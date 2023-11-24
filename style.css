@@ -31,7 +31,7 @@ body{
     grid-column-start: 1;
     grid-column-end: 3;
 }
-.img{
+.main-img{
     height: 100%;
     width: 100%;
 }
@@ -89,20 +89,23 @@ body{
     margin-right:auto ;
     
 }
+.small-img{
+    width:40%;
+}
 .flex,.flex-container{
     display: flex;
 }
 .box{
     padding: 10px;
-    height: 140px;
 }
 .small-para{
     padding: 10px;
+    line-height: 1.6;
 }
 .small-para >*{
     padding: 5px;
 }
-@media (max-width:950px) {
+@media (max-width:550px) {
     body{
         padding:10px;
     }
